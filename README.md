@@ -3,7 +3,7 @@
 
 ### OBEJECTIVES:
 Unordered Lists:
-Item 1 The main objective is to increase the programming ability of the programmer
+* The main objective is to increase the programming ability of the programmer
 which would help them to crack coding interviews.
 * To provide a all-in-one platform for the coders, which includes to-do list, sticky
 notes, writing board, clock, timer, language learning platform, online compliers,
