@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home Page</title>
+    <style>
+        /* CSS for grid layout */
+        body{
+            background-image: url("image6.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;  
+            background-size: cover;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+            padding: 20px;
+        }
+
+        .grid-card {
+            background-color: #f0e8f0;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        .grid-card img {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .grid-card h2 {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+        .grid-card p {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+
+        .grid-card a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 16px;
+            background-color: #4CAF50;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        .grid-card a:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    
+        <br>
+    <center>
+    <h1><b><u>STRESS BUSTER</u></h1></b></h1>
+    <h2><b><i>A programmer’s guide to managing stress</i></b></h2>
+    </center>
+    <br>
+    <div class="grid-container">
+        <div class="grid-card">
+            <img src="image1.jpg" alt="Image 1">
+            <h2><u>MEDITATE</u></h2>
+            <p>When we meditate, we inject far-reaching and long-lasting benefits into our lives: We lower our stress levels, we get to
+            know our pain, we connect better, we improve our focus, and we're kinder to ourselves.</p>
+            <a href="meditate/index.html">Try it Now</a>
+        </div>
+        <div class="grid-card">
+            <img src="image2.jpg" alt="Image 2">
+            <h2><u>RELAXING SOUNDS</u></h2>
+            <p>Sounds of rain, thunder, and nature sounds may also be relaxing particularly when mixed with other music, such as light
+            jazz, classical (the "largo" movement), and easy listening music.</p>
+            <a href="soothing-sounds-master/index.html">Try it Now</a>
+        </div>
+        <div class="grid-card">
+            <img src="image 3.jpeg" alt="Image 3">
+            <h2><u>SCRATCH IT AND RELIVE</u></h2>
+            <p>It's called "graphotherapy," but it's really just doodling, and stress experts say it can effectively reduce stress
+            hormones in your body--specifically the squiggly "phone cord" doodle above. "It promotes calmness and relaxation and
+            relieves inner tension."</p>
+            <a href="writing-board-main/index.html">Try it Now</a>
+        </div>
+    </div>
+</body>
+
+</html>

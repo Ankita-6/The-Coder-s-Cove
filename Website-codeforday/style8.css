@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@200&family=Quicksand:wght@700&family=Sacramento&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+:root{
+    --primary-color:#364ba7;
+    --secondary-color: #f583a7;
+
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgb(0,0,0,0.6);
+    border-radius:10px;
+    width: 600px;
+    background-color: rgba(255,255,255,0.3);
+    margin: 10px;
+}
+.fa-quote-left
+{
+    font-size: 80px;
+    color: var(--secondary-color);
+}
+.quote
+{
+    text-align: center;
+    font-style: italic;
+    color: var(--primary-color);
+}
+.author
+{
+    color: var(--secondary-color);
+    font-size: 20px;
+}
+
+hr{
+    margin: 10px 0;
+    width:60%;
+    border: 1px solid #364ba788;
+}
+.buttons{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+
+}
+.twitter-share-button{
+    text-decoration:none;
+    font-size: 20px;
+    background-color: var(--primary-color);
+    padding:10px;
+    color:var(--secondary-color);
+    border-radius:4px;
+}
+.buttons button{
+    cursor: pointer;
+    border: null;
+    color: var(--secondary-color);
+    font-size: 20px;
+    font-weight: 700;
+    background-color: var(--primary-color);
+    padding:10px;
+    border-radius:4px;
+}
+button:focus
+{
+    outline:none;
+}
